@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Palak Pal</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body { font-family: 'Roboto', sans-serif; background: #f4f7f8; color: #333; }
+    .hero { background: linear-gradient(135deg, hsl(251, 96%, 10%) 0%, hsl(218, 96%, 17%) 100%); color: white; text-align: center; padding: 60px 20px; }
+    .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
+    .hero p { font-size: 1.5rem; font-weight: 500; }
+    .section-title { text-align: center; margin-bottom: 40px; color: lch(4.85% 17.07 280.96); font-weight: 700; }
+    .about-section { padding: 60px 20px; }
+    .profile-img { max-width: 200px; border-radius: 50%; margin-bottom: 20px; }
+    .skill-card { border: none; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; background: #fff; transition: transform 0.3s, box-shadow 0.3s; }
+    .skill-card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.2); }
+    .skill-icon { font-size: 1.5rem; margin-right: 10px; color: hsl(218, 87%, 12%); }
+    footer { background: #1b1b1b; color: white; padding: 40px 20px; }
+    footer a { color: white; text-decoration: none; }
+    footer a:hover { color: hsl(218, 93%, 11%); }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Palak Pal Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAbout" aria-controls="navbarNavAbout" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAbout">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>About Me</h1>
+    <p>Hi, I'm Palak Pal - BCA Student, Web Developer & AI/Data Science Enthusiast</p>
+</section>
+
+<!-- About Section -->
+<section class="about-section container">
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img src="profile.jpeg"  alt="Palak Pal Profile Picture" 
+     style="width:250px; height:250px; object-fit:cover; border-radius:15px; box-shadow:0 8px 20px #0e010133; transition: transform 0.3s;"
+     onmouseover="this.style.transform='scale(1.05)';" 
+     onmouseout="this.style.transform='scale(1)';"><!-- Replace with your photo -->
+        </div>
+        <div class="col-md-8">
+            <h3 class="section-title">Hi, I'm Palak Pal</h3>
+            <p>I am a passionate and driven BCA student with hands-on experience in <strong>AI, Data Science, Web Development</strong>, and digital operations. I have completed internships at <strong>Country Escape</strong> (Web Designing & Digital Operations) and <strong>Configz</strong> (Data Analysis).</p>
+            <p>My goal is to develop professional, user-friendly, and innovative solutions for real-world problems. I enjoy working on projects that combine technology, creativity, and data-driven insights.</p>
+        </div>
+    </div>
+
+    <!-- Personal Skills -->
+    <h3 class="section-title mt-5">Personal Skills</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-users skill-icon"></i> Teamwork - Thrive in collaborative environments.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-lightbulb skill-icon"></i> Creativity - Innovative & out-of-the-box thinking.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-clock skill-icon"></i> Time Management - Efficiently handle multiple tasks.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-search skill-icon"></i> Problem Solving - Analytical & methodical approach.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-graduation-cap skill-icon"></i> New Learner - Always eager to explore new tech & tools.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-tasks skill-icon"></i> Responsibility - Ready to take on new challenges.</div>
+        </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <h3 class="section-title mt-5">Technical Skills</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-html5 skill-icon"></i> HTML</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-css3-alt skill-icon"></i> CSS</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-js skill-icon"></i> JavaScript</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-database skill-icon"></i> MySQL</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-python skill-icon"></i> Python</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-cogs skill-icon"></i> C, C# & Java</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-bootstrap skill-icon"></i> Bootstrap</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fab fa-github skill-icon"></i> Git & GitHub</div>
+        </div>
+        <div class="col-md-4">
+            <div class="skill-card"><i class="fas fa-desktop skill-icon"></i> VS Code & ASP.net</div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <p><strong>Contact Information</strong></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:palpalak951@gmail.com">palpalak951@gmail.com</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+9321211413">+9321211413</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><strong>Social Media</strong></p>
+                <a href="https://www.instagram.com/_" class="me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://wa.me/9321211413" class="me-3" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/" class="me-3" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/palak1777" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="col-md-4">
+                <p><strong>Location</strong></p>
+                <p><i class="fas fa-map-marker-alt"></i> sadhguru nakshtra titwala east ,Mumbai, Maharashtra, India</p>
+            </div>
+        </div>
+        <p class="text-center">© 2024 Palak Pal | All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
